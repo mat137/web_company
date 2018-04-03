@@ -1,0 +1,46 @@
+
+/* Core Styles */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.btn {
+    display: inline-block;
+
+    color: #fff;
+    background: $bluish;
+    text-decoration: none;
+    border: 1px solid #666;
+    padding: 1em 2em;
+    margin: 0.5em 0;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #333;
+}
